@@ -1659,3 +1659,13 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+.profile {
+	background-image: url("../../images/profile.jpg");
+	background-size: cover;
+	opacity: 0.5;
+}
+
+.profile:hover {
+	opacity: 1;
+}

@@ -1663,7 +1663,7 @@ input, select, textarea {
 .profile {
 	background-image: url("../../images/profile.jpg");
 	background-size: cover;
-	opacity: 0.5;
+	opacity: 0.75;
 }
 
 .profile:hover {

@@ -1663,9 +1663,16 @@ input, select, textarea {
 .profile {
 	background-image: url("../../images/profile.jpg");
 	background-size: cover;
-	opacity: 0.75;
+	opacity: 0.5;
+	animation: rotate 2s linear infinite paused;
 }
 
 .profile:hover {
 	opacity: 1;
+	animation-play-state: running;
+}
+
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }
